@@ -1,0 +1,17 @@
+# This file contains all .gitignor rules for a project running on Acquia server.
+# For this reason, as we work just with the theme file, we will mount the Drupal
+# environment separately from its theme folder, and will use a make function to
+# copy the necessary files to have a functional environment for developing.
+
+# In this case don't wonder if you see all docroot, vendor and config folders
+# inside this file.
+
+# Drupal files
+config/
+vendor/
+.editorconfig
+.gitattributes
+
+# Other files
+.DS_Store
+._*
